@@ -1,0 +1,28 @@
+{
+    "name": "hisp-infra-extension-pack",
+    "displayName": "Penguin Ninja's Extension Pack",
+    "description": "This is an extension pack to be used by HISP Infrastructure",
+    "version": "0.0.1",
+    "publisher": "Jeremy Isaacs",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "icon": "img/infra_icon.png",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jamesqquick/Web-Development-Essentials-Extension-Pack"
+    },
+    "extensionPack": [ 
+        "truman.autocomplate-shell",
+        "aaron-bond.better-comments",
+        "davidanson.vscode-markdownlint",
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "rpinski.shebang-snippets",
+        "foxundermoon.shell-format",
+        "evgeniypeshkov.syntax-highlighter",
+        "bmuskalla.vscode-tldr"
+    ]
+}
